@@ -1,0 +1,33 @@
+{
+  "name": "rescript-fela",
+  "description": "Reason bindings for fela and react-fela",
+  "version": "11.6.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bsconfig.json",
+    "src/**",
+    "lib/**"
+  ],
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "license": "MIT",
+  "author": "Robin Weser <contact@weser.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinweser/fela"
+  },
+  "peerDependencies": {
+    "fela": "^10.x.x",
+    "react-fela": "^10.x.x"
+  },
+  "dependencies": {
+    "bs-platform": "^9.0.2",
+    "@rescript/react": "^0.10.3"
+  },
+  "gitHead": "4cc4686d9e16877251ac5c73e161076ec7c113a1"
+}
